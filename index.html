@@ -10,16 +10,16 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    <div class="game-cointainer">
-        <h1>Tic Tac Toe</h1>
-        <div class="player-input">
-            <input id="player1" type="text" placeholder="Player 1">
-            <input id="player2" type="text" placeholder="Player 2">
-            <button id="start-btn">Start Game</button>
-        </div>
-        <div class="gameboard"></div>
-        <div class="game-info"></div>
-        <button class="restart-btn">Restart Game</button>
+<div class="game-container">
+    <h1>Tic Tac Toe</h1>
+    <div class="player-input">
+        <input id="player1" type="text" placeholder="Player 1">
+        <input id="player2" type="text" placeholder="Player 2">
+        <button id="start-btn">Start Game</button>
+        <button id="restart-btn" class="restart-btn">Restart Game</button> <!-- Added ID -->
     </div>
+    <div class="gameboard" id="gameboard"></div> <!-- Added ID -->
+    <div class="game-info" id="game-info"></div> <!-- Added ID -->
+</div>
 </body>
 </html>
