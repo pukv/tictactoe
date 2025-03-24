@@ -54,3 +54,30 @@ button {
 #restart-btn {
 	display: none;
 }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #2c003e; /* Deep purple */
+	/* Alternative green option: #1a3e2f */
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Courier New', monospace;
+	font-size: 0.9rem;
+	box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+footer p {
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+/* If you prefer the green version, uncomment this: */
+/*
+footer {
+  background-color: #1a3e2f;
+}
+*/
